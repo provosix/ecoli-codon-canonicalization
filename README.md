@@ -81,3 +81,21 @@ The output directory contains:
 - The random model is reproducible for the same input, software dependencies, and seed.
 - The script validates protein-sequence preservation for retained CDSs and stops if a mismatch is detected.
 - This is a sequence-level computational project, not experimental validation of redesigned genes.
+
+## Key Findings
+
+The analysis compared three synonymous codon canonicalization strategies in *E. coli* K-12 MG1655.
+
+| Strategy | Sense codons changed | Nucleotides changed | Final GC content |
+|---|---:|---:|---:|
+| Most frequent codon | 48.29% | 18.57% | 57.56% |
+| Random codon | 65.92% | 23.65% | 46.08% |
+| Least frequent codon | 77.03% | 29.35% | 45.36% |
+
+### Main observations
+
+- The most-frequent-codon strategy produced the lowest proportion of changed sense codons and nucleotides among the three strategies.
+- The least-frequent-codon strategy produced the highest proportion of changes.
+- GC content varied across strategies, demonstrating that synonymous codon selection can substantially alter nucleotide composition.
+
+These findings describe computational sequence comparisons. They do not establish equivalent gene expression, translation efficiency, or biological fitness in living cells.

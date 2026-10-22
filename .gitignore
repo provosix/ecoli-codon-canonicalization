@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.DS_Store
+Thumbs.db
+results_generated/
+ecoli_codon_results/
+test_run/

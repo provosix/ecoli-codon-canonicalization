@@ -89,3 +89,7 @@ The output directory contains:
 - GC content varied across the three strategies, ranging from 45.36% to 57.56%.
 
 These findings describe computational sequence comparisons and do not establish equivalent gene expression, translation efficiency, or biological fitness.
+
+## Model comparison
+
+![Comparison of codon canonicalization strategies](results/model_comparison.png)
